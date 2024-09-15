@@ -6,16 +6,31 @@
 .parent{
     background-color: rgb(121, 90, 108);
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
     border: solid black;
     width: 1500px;
     height: 1500px;
-    column-gap: 295px;
-    row-gap: 200px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.ch1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ch2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ch3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .child{
     background-color:rgba(254,226,161,255);
