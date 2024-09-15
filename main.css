@@ -30,7 +30,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .child{
     background-color:rgba(254,226,161,255);
