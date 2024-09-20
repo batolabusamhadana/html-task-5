@@ -544,6 +544,7 @@ footer ul li a{
         height: 100%;
         margin-bottom: 20px;
         margin-top: 20px;
+        background-color: whitesmoke;
     }
     .Review .container{
         display: flex;
